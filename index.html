@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMCC Bootstrap Sample</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 4.5rem;
+    }
+    .hero {
+      background-image: url('images/smcc-lobby.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">SMCC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero d-flex align-items-center justify-content-center">
+    <h1>Welcome to SMCC</h1>
+  </section>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <h1 id="about" class="mb-4">About Us</h1>
+        <p>Saint Michael College of Caraga, also referred to by its acronym SMCC, is a private, Roman Catholic, basic education and higher education institution run by the Roman Catholic Diocese of Butuan in Nasipit, Agusan del Norte, Philippines.</p>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h2 id="services" class="mb-4">Services</h2>
+        <img src="images/sched.jpg" class="img-fluid" alt="Services">
+      </div>
+      <div class="col-md-6 d-flex align-items-center">
+        <p>We offer a wide range of services to support our students and community...</p>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12">
+        <h1 id="courses" class="mb-4">Courses Offered</h1>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="images/courseoff.png" class="card-img-top" alt="SMCC Courses">
+          <div class="card-body">
+            <h5 class="card-title">SMCC Courses</h5>
+            <p class="card-text">Be one of Us!</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-5 bg-light py-4" id="contact">
+    <div class="container text-center">
+      <p>Contact Us: (085) 225-0208 / 0906-404-8695<br>Email: <a href="mailto:admin@smccnasipit.edu.ph">admin@smccnasipit.edu.ph</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
